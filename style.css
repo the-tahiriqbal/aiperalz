@@ -1,0 +1,82 @@
+/* body{
+    background: url(/gradient.jpg);
+} */
+.custom-b{
+    background: linear-gradient(90deg, rgba(200,49,207,1) 35%, rgba(91,51,193,1) 74%);
+    border: 1px solid red;
+}
+.new{
+    color: blueviolet;
+}
+.custom-border{
+    border: 1px solid rgb(255, 255, 255);
+}
+.offer-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.text-content {
+    max-width: 50%;
+}
+.text-content .section-title {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c63ff;
+}
+.text-content h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.text-content p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+}
+.service-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 45%;
+}
+.service-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.service-card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+.service-card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.service-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+/* .video_background{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    width: 1511.11px;
+      height: 850px;
+  } */
+   .video{
+    /* background: url(./aipearls-video-banner-1.mp4); */
+    background-color: #636280;
+   }
